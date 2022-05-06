@@ -1,0 +1,41 @@
+<!-- Property Binding  -->
+
+<!-- <h1 class ="rosso">{{title}}</h1> -->
+
+<!-- Altro modo di mostrare una proprietà -->
+<h2 [innerText]= "title" [class.rosso]= "isLiked"></h2>
+
+<img src="{{imgPath}}">
+
+<!-- <button class="btn btn-primary">Prova</button> -->
+
+<p [class]="piuClassi">Questa è la faccia di Paolo Brosio</p>
+
+<button class="btn btn-primary" (click)="onClick()">Prova</button>
+
+<div id="demo">
+    <p>verrà mostrato il nome del nostro personaggio</p>
+    <app-mio-comp [nome] = 'nomeDelComponent' (piaciuto)="onLike()"></app-mio-comp>
+
+</div>
+
+<div class="row">
+<h1>App Hero</h1>
+<div class="col-5">
+<app-hero></app-hero>
+</div>
+
+<div class="col-5">
+<app-heroes></app-heroes>
+</div>
+</div>
+
+<h2>Gioco con le classi</h2>
+
+<app-hero-ng-class>
+
+</app-hero-ng-class>
+
+<h2>Gioco con Pipes Built-in</h2>
+<app-pipes-prova></app-pipes-prova>
+
