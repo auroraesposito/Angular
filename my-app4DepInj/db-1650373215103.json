@@ -1,0 +1,19 @@
+{
+  "utenti": [
+    {
+      "id": "1",
+      "nome": "Pippo",
+      "ruolo": "Amministratore"
+    },
+    {
+      "id": "2",
+      "nome": "Pluto",
+      "ruolo": "Base"
+    },
+    {
+      "id": "3",
+      "nome": "Fritz",
+      "ruolo": "Amico"
+    }
+  ]
+}
